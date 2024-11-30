@@ -1,11 +1,11 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
+import pic from "../../public/Ankur.jpeg";
 
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+ import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
+import { FaSquareGithub } from "react-icons/fa6";
 
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -57,12 +57,12 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
+                    <a href="https://github.com/ankursasmal" target="_blank">
+                      <FaSquareGithub className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/ankur-sasmal-59804025a/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
